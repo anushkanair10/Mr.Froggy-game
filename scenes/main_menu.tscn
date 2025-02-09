@@ -1,0 +1,65 @@
+[gd_scene load_steps=4 format=3 uid="uid://crwuj4y6vmomg"]
+
+[ext_resource type="Script" path="res://scenes/main_menu.gd" id="1_2cgmc"]
+[ext_resource type="Texture2D" uid="uid://bsyu4dxnmw5ri" path="res://scenes/Brown.png" id="1_r5x12"]
+[ext_resource type="Texture2D" uid="uid://bkm5d0jpfdhj1" path="res://scenes/cooltext475600778703293.png" id="2_u01cv"]
+
+[node name="MainMenu" type="Node"]
+script = ExtResource("1_2cgmc")
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+texture_filter = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_r5x12")
+stretch_mode = 1
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -388.0
+offset_top = -105.0
+offset_right = 392.0
+offset_bottom = 7.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_u01cv")
+
+[node name="level1" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -310.0
+offset_top = 55.0
+offset_right = -63.0
+offset_bottom = 129.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 30
+text = "Level 1"
+
+[node name="level2" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 49.0
+offset_top = 57.0
+offset_right = 296.0
+offset_bottom = 131.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 30
+text = "Level 2"
+
+[connection signal="pressed" from="level1" to="." method="_on_level_1_pressed"]
+[connection signal="pressed" from="level2" to="." method="_on_level_2_pressed"]

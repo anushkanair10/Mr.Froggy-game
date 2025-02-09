@@ -1,0 +1,25 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1739108850
+game_manager.gd::GDScript::-1::1738757469::0::1::::<>Node<>::
+Green.png::CompressedTexture2D::5376337324634883385::1738749364::1738749364::1::::<><>::
+icon.svg::CompressedTexture2D::3516041370472979199::1738746491::1738746497::1::::<><>::
+Jump (32x32).png::CompressedTexture2D::8961334495155810734::1738749822::1738749822::1::::<><>::
+Terrain (16x16).png::CompressedTexture2D::1135567227244704410::1738749451::1738749451::1::::<><>::
+::res://scenes/::1738999695
+Brown.png::CompressedTexture2D::3700631256861838354::1738942538::1738942538::1::::<><>::
+Cherries.png::CompressedTexture2D::7489141744942139120::1738754686::1738754686::1::::<><>::
+collectable.gd::GDScript::-1::1738755905::0::1::::<>Area2D<>::
+collectable.tscn::PackedScene::6070312055349993550::1738999695::0::1::::<><>::res://scenes/collectable.gd<>uid://dex2cnlrerjt5::::res://scenes/Cherries.png
+cooltext475600778703293.png::CompressedTexture2D::3114909847962183536::1738942451::1738942451::1::::<><>::
+End (Idle).png::CompressedTexture2D::3761257613392065310::1738756942::1738756942::1::::<><>::
+finish.gd::GDScript::-1::1738951450::0::1::::<>Area2D<>::
+finish.tscn::PackedScene::203187579800002553::1738999695::0::1::::<><>::uid://btt8mmb0aekss::::res://scenes/End (Idle).png<>res://scenes/finish.gd
+Idle (32x32).png::CompressedTexture2D::7989976918303948629::1738750421::1738750421::1::::<><>::
+level1.tscn::PackedScene::4651774714121303519::1738999695::0::1::::<><>::res://game_manager.gd<>uid://ciulqwys0btxh::::res://Green.png<>uid://qgcvkbbw4j3w::::res://Terrain (16x16).png<>uid://dshvwc3lu5sfd::::res://scenes/main_character.tscn<>uid://csqrfgqpv32co::::res://scenes/collectable.tscn<>uid://c5op8bgfe06h::::res://scenes/finish.tscn<>uid://w04yky6eaybs::::res://scenes/level2.tscn
+level2.tscn::PackedScene::1597568219454830516::1738999695::0::1::::<><>::res://game_manager.gd<>uid://bhansdg2j05be::::res://scenes/Yellow.png<>uid://qgcvkbbw4j3w::::res://Terrain (16x16).png<>uid://dshvwc3lu5sfd::::res://scenes/main_character.tscn<>uid://crwuj4y6vmomg::::res://scenes/main_menu.tscn<>uid://csqrfgqpv32co::::res://scenes/collectable.tscn<>uid://c5op8bgfe06h::::res://scenes/finish.tscn
+main_character.gd::GDScript::-1::1738754492::0::1::::<>CharacterBody2D<>::
+main_character.tscn::PackedScene::8438426373985248389::1738999695::0::1::::<><>::uid://d0w64ttj0c76q::::res://Jump (32x32).png<>res://scenes/main_character.gd<>uid://dl3n0t5bel1un::::res://scenes/Idle (32x32).png<>uid://cubh4dgprm0qk::::res://scenes/Run (32x32).png
+main_menu.gd::GDScript::-1::1738950689::0::1::::<>Node<>::
+main_menu.tscn::PackedScene::6012699993512050662::1738999695::0::1::::<><>::res://scenes/main_menu.gd<>uid://bsyu4dxnmw5ri::::res://scenes/Brown.png<>uid://bkm5d0jpfdhj1::::res://scenes/cooltext475600778703293.png
+Run (32x32).png::CompressedTexture2D::6179159592417143902::1738750859::1738750859::1::::<><>::
+Yellow.png::CompressedTexture2D::2878564222434257622::1738758211::1738758212::1::::<><>::
